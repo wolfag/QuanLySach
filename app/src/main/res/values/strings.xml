@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">QuanLySach</string>
+    <string name="tv_app_name">Quản Lý Sách</string>
+    <string name="btn_add_author">Thêm Tác Giả</string>
+    <string name="btn_view_author_list">Xem danh sách Tác Giả</string>
+    <string name="btn_book_mgr">Quản Lý Sách</string>
+    <string name="tv_author_birthday">Ngày sinh:</string>
+    <string name="tv_author_name">Tên Tác Giả:</string>
+    <string name="btn_clear">Xóa trắng</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_update">Cập nhật</string>
+    <string name="btn_add_book">Thêm Sách</string>
+    <string name="tv_publish_date">Ngày XB:</string>
+    <string name="tv_book_name">Tên sách:</string>
+    <string name="title_dialog_publish_date">Ngày xuất bản</string>
+    <string name="msg_choose_author">Hãy chọn tác giả.</string>
+    <string name="btn_back">Quay lại</string>
+    <string name="title_dialog_author_birthday">Chọn ngày sinh</string>
+</resources>

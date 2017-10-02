@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wolfag.quanlysach.Activities.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#004000"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/tv_app_name"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnAddAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_add_author" />
+
+    <Button
+        android:id="@+id/btnViewAuthorList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_view_author_list" />
+
+    <Button
+        android:id="@+id/btnBookMgr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/btn_book_mgr" />
+</LinearLayout>

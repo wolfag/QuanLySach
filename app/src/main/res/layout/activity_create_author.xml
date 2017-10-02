@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wolfag.quanlysach.Activities.CreateAuthorActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:text="@string/tv_author_name"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+                <requestFocus/>
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtAuthorName"
+                android:ems="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="@string/tv_author_birthday"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtAuthorBirthday"
+                android:ems="10">
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btnClear"
+                android:text="@string/btn_clear"/>
+            <Button
+                android:id="@+id/btnSaveAuthor"
+                android:text="@string/btn_save"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
